@@ -89,8 +89,8 @@ Read data:
 
 ```python
 df = db.select(
-    columns=["Date", "Close"],
-    keys=["AAPL", "MSFT"]
+    columns=...,
+    keys=...
 )
 ```
 
@@ -98,9 +98,9 @@ Filter rows:
 
 ```python
 df = db.select(
-    columns=["Date", "Close"],
-    keys=["AAPL"],
-    where="Close > 100",
+    # columns=...,
+    keys=...,
+    where="col > 100",
     order_by="Date DESC",
     limit=100
 )
@@ -112,10 +112,10 @@ Run a custom SQL query:
 df = db.sql("""
 SELECT
     key,
-    AVG(Close) AS avg_close
+    AVG(col) AS avg_col
 FROM data
 GROUP BY key
-ORDER BY avg_close DESC
+ORDER BY avg_col DESC
 """)
 ```
 
@@ -218,7 +218,7 @@ with BlackSwanDB("./blackswan") as db:
 * Automatic encoding detection
 * Parallel imports
 * Metadata cache
-* Polars support
+* Polars support (later on)
 * Partitioned Parquet datasets
 * Dataset statistics
 * Incremental indexing
