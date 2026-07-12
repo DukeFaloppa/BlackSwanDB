@@ -1,6 +1,6 @@
 # BlackSwanDB
 
-![image](./data/logo.png)
+<img src="./data/logo.png" alt="drawing" width="200">
 
 **BlackSwanDB** is a lightweight Python library that combines the simplicity of **Pandas**, the performance of **DuckDB**, and the efficiency of **Apache Parquet**.
 
