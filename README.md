@@ -221,7 +221,6 @@ with BlackSwanDB("./blackswan") as db:
 * Polars support
 * Partitioned Parquet datasets
 * Dataset statistics
-* Logging
 * Incremental indexing
 
 ---
@@ -237,7 +236,7 @@ with BlackSwanDB("./blackswan") as db:
 
 ## License
 
-MIT License.
+MIT License
 
 ---
 
