@@ -1,1 +1,10 @@
+.blackswan
+data/*png
 
+**db0.py
+**README0.md
+
+src/blackswandb.egg-info
+src/blackswandb/__pycache__
+
+blackswan/*
