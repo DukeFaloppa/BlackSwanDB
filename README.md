@@ -217,7 +217,7 @@ with BlackSwanDB("./blackswan") as db:
 * Automatic delimiter detection
 * Automatic encoding detection
 * Parallel imports
-* Metadata cache
+* Metadata cache (later on)
 * Polars support (later on)
 * Partitioned Parquet datasets
 * Dataset statistics
