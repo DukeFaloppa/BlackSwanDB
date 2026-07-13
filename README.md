@@ -29,10 +29,7 @@ Its goal is to provide a simple API to manage collections of datasets stored as 
 
 ## Installation
 
-```bash
-pip install blackswandb
-```
-or, from the repository:
+from the repository:
 
 ```bash
 pip install -e .
@@ -203,7 +200,7 @@ with BlackSwanDB("./blackswan") as db:
 
 ## Roadmap
 
-### Version 0.1
+### Version 0.1.0
 
 * DuckDB backend
 * Parquet storage
